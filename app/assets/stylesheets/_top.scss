@@ -1,0 +1,26 @@
+html,body{
+  height: 100%;
+}
+
+.top{
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  &__title{
+    color: white;
+    font-size: 200px;
+    font-family: 'Sacramento', cursive;
+    padding: 40px 0 0 160px;
+  }
+  &__games{
+    font-size: 40px;
+    padding: 100px 0 0 220px;
+    &__game{
+      color: white;
+      text-decoration-color: white;
+      text-decoration: underline ;
+    }
+  }
+}
+    
